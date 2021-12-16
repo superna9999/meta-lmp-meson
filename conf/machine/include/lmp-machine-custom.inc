@@ -15,6 +15,8 @@ SDCARD_MMC_DEV_hardkernel-odroidn2plus = "0"
 SDCARD_MMC_DEV_hardkernel-odroidc4 = "0"
 SDCARD_MMC_DEV_hardkernel-odroidhc2 = "0"
 
+PREFERRED_PROVIDER_virtual/kernel_meson-gx = "linux-meson64"
+
 PREFERRED_PROVIDER_virtual/bootloader_meson-gx = "u-boot-meson-gx"
 PREFERRED_PROVIDER_u-boot_meson-gx = "u-boot-meson-gx"
 
