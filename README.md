@@ -14,6 +14,8 @@ Probable work needed:
  - Boards based on A113D (amlogic-s400), has no SDCard, only eMMC or USB
  - Boards based on S805X (libretech-ac, p241), has no SDCard, but USB and optionnaly eMMC, and already has mainline U-Boot on the SPI flash
 
+Please report problems/success on meta-meson [#125](https://github.com/superna9999/meta-meson/issues/125) dedicated issue.
+
 ## Build
 
 Download the source:
