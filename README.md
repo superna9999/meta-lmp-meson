@@ -2,7 +2,17 @@
 
 Tested boards:
 
- - libretech-cc
+ - libretech-cc (SDCard)
+ - khadas-vim3 (SDCard)
+ - khadas-vim3l (SDCard)
+
+Probably other boards supported by Mainline U-Boot & meta-meson should work fine.
+
+Adding possibility to target eMMC instead of SDCard is missing.
+
+Probable work needed:
+ - Boards based on A113D (amlogic-s400), has no SDCard, only eMMC or USB
+ - Boards based on S805X (libretech-ac, p241), has no SDCard, but USB and optionnaly eMMC, and already has mainline U-Boot on the SPI flash
 
 ## Build
 
