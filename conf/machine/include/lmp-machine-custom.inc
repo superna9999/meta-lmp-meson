@@ -3,7 +3,7 @@
 # 0: SDIO
 # 1: SDCard
 # 2: eMMC
-SDCARD_MMC_DEV_meson_gx = "1"
+SDCARD_MMC_DEV_meson-gx = "1"
 # If not (like libretech-cc, libretech-ac, odroid-c2, odroid-n2, odroid-c4...)
 # 0: SDCard
 # 1: eMMC
@@ -15,7 +15,9 @@ SDCARD_MMC_DEV_hardkernel-odroidn2plus = "0"
 SDCARD_MMC_DEV_hardkernel-odroidc4 = "0"
 SDCARD_MMC_DEV_hardkernel-odroidhc2 = "0"
 
+# On Hardknott only VIM3 uses linux-yocto, this will change with honister & next
 PREFERRED_PROVIDER_virtual/kernel_meson-gx = "linux-meson64"
+PREFERRED_PROVIDER_virtual/kernel_khadas-vim3 = "linux-yocto"
 
 PREFERRED_PROVIDER_virtual/bootloader_meson-gx = "u-boot-meson-gx"
 PREFERRED_PROVIDER_u-boot_meson-gx = "u-boot-meson-gx"
